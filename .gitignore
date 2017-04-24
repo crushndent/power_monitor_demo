@@ -1,0 +1,3 @@
+.git
+.gitignore
+django_secrets.py
