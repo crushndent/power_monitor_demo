@@ -10,6 +10,13 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
+'''
+Did not do a PIP freeze - but the required packages are:
+django
+pytz
+requests
+'''
+
 import os
 from monitor.django_secrets import *
 

@@ -4,7 +4,7 @@ import time
 
 # COM_PORT = '/dev/ttyUSB0'
 COM_PORT = 'COM7'
-URL = "http://192.168.10.157:8080/device/post/"
+URL = "http://grittytech.com:8080/device/post/"
 ser = serial.Serial(COM_PORT, 9600, timeout=15)
 
 

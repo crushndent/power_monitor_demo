@@ -1,5 +1,5 @@
 from django.views.generic import View
-from django.http import JsonResponse
+from django.http import JsonResponse, response
 from PowerMon.models import Power
 import datetime, pytz, json
 from django.core.serializers.json import DjangoJSONEncoder
@@ -19,3 +19,6 @@ class ReportView(View):
         #Return JSON
         return JsonResponse({'results': json.dumps(list(ret), cls=DjangoJSONEncoder)})
 
+class GraphView(View):
+    def get(self, request):
+        return response('index.html')
