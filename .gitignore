@@ -1,3 +1,6 @@
 .git
 .gitignore
 django_secrets.py
+venv_win
+*.py[cd]
+.idea
