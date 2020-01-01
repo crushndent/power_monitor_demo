@@ -18,7 +18,8 @@ requests
 '''
 
 import os
-from monitor.django_secrets import *
+SECRET_KEY = 'p0lx_5n@$+2yyc&(bz!t=t&*w55ed#-wecor+brcf#2k^h(321'
+DEBUG = True
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

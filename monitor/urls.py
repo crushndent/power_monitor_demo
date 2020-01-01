@@ -19,5 +19,6 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^report/', include('PowerMon.report.urls')),
+    url(r'^bokeh/', include('PowerMon.bokeh.urls')),
     url(r'^device/', include('PowerMon.device.urls')),
 ]
